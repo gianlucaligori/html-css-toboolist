@@ -15,11 +15,18 @@ header {
     background-color: white;
     height: 70px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 0px;   
+}
+
+.logo {
+ margin-left: 10px;
+ margin-top: 10px;
 }
 
 .title {
     font-size: 50px;
+    display: inline-block;
+    vertical-align: text-bottom;
 }
 
 main {
@@ -64,9 +71,11 @@ ul {
     color: grey;
 }
    
-.uln-task {
-    font-size: 40px;
+.newtask, .today, .upcoming {
+    font-size: 20px;
     list-style-type: none;
+    margin-left: 30px;
+    margin-top: 20px; 
 }
 
 .dir {
@@ -76,7 +85,6 @@ ul {
 .mark{
     background-color: #fff;
     border: solid 1px;
-    border-radius: 50%;
     padding-left: 3px;
     padding-right: 3px;
     margin-left: -52px;
@@ -86,11 +94,14 @@ ul {
 .check{
     color: green;
     border-color: green;
+    border-radius: 50px;
 }
 
 .cross{
     border-color: red;
     color: red;
+    border-radius: 50px;
+    
 }
 
 .edit{
@@ -100,11 +111,6 @@ ul {
     color: #fff;
     border-radius: 10px;
     background-color: rgb(69, 171, 234);
-}
-
-.today {
-    font-size: 40px;
-    list-style-type: none;
 }
 
 .q1g {
@@ -143,10 +149,6 @@ margin-left: 20px;
     background-color: orange;
 }
 
-.upcoming {
-    font-size: 40px;
-    list-style-type: none;
-}
 
 .website {
     margin-left: 20px;
