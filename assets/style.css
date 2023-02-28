@@ -1,3 +1,7 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     background-color: lightgray;
     
@@ -21,8 +25,58 @@ header {
     margin: 50px 200px 0px 200px;
     background-color: white;
     height: 800px;
+}
+
+
+.buttons {
+
+    padding: 10px;
+}
     
-  }
-    
-    
+.add-task {
+   background-color:  rgb(69, 171, 234);
+   border-color: rgb(69, 171, 234);
+   border-radius: 5px 5px 5px 5px;
+}
+
+.add-section {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    border-color: grey;
+}
+.line1 {
+    width: max-conte;
+    color: grey;
+}
    
+.uln-task {
+    font-size: 40px;
+    list-style-type: none;
+}
+
+.dir {
+    font-size: 15px;
+}
+
+.mark{
+    background-color: #fff;
+    border: solid 1px;
+    border-radius: 50%;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: -43px;
+
+}
+
+.check{
+    color: green;
+    border-color: green;
+}
+
+.cross{
+    border-color: red;
+    color: red;
+}
+
+
+
