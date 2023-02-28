@@ -1,5 +1,8 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+      
 }
 
 body {
@@ -19,9 +22,8 @@ header {
     font-size: 50px;
 }
 
-.container {
+main {
     border-radius: 10px;
-    padding: 10px 50px;
     margin: 50px 200px 0px 200px;
     background-color: white;
     height: 800px;
@@ -29,20 +31,33 @@ header {
 
 
 .buttons {
+    padding: 15px 40px;
+}
 
-    padding: 10px;
+hr {
+    border-color: lightgray;
+}
+
+ul {
+    padding: 10px 80px;
+    list-style-type: none;
 }
     
 .add-task {
    background-color:  rgb(69, 171, 234);
    border-color: rgb(69, 171, 234);
-   border-radius: 5px 5px 5px 5px;
+   color: white;
+   border-radius: 3px;
+   padding: 2px;
+
 }
 
 .add-section {
-    background-color: white;
-    border-radius: 5px 5px 5px 5px;
-    border-color: grey;
+   background-color:  white;
+   border-color: lightgray;
+   color: lightgrey;
+   border-radius: 3px;
+   padding: 2px;
 }
 .line1 {
     width: max-conte;
@@ -64,7 +79,7 @@ header {
     border-radius: 50%;
     padding-left: 3px;
     padding-right: 3px;
-    margin-left: -43px;
+    margin-left: -52px;
 
 }
 
@@ -78,5 +93,75 @@ header {
     color: red;
 }
 
+.edit{
+    margin-left: 20px;
+    padding: 4px 4px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(69, 171, 234);
+}
 
+.today {
+    font-size: 40px;
+    list-style-type: none;
+}
 
+.q1g {
+    margin-left: 20px;
+    padding: 4px 4px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: red
+}
+
+.Q1{
+    margin-left: 20px;
+    padding: 4px 4px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: violet;
+}
+
+.recruiting {
+margin-left: 20px;
+    padding: 4px 4px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.mobile {
+    margin-left: 20px;
+    padding: 4px 4px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.upcoming {
+    font-size: 40px;
+    list-style-type: none;
+}
+
+.website {
+    margin-left: 20px;
+    padding: 4px 4px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+.sales {
+    margin-left: 20px;
+    padding: 4px 4px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: salmon;
+}
